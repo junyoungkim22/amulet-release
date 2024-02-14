@@ -26,8 +26,8 @@ tar -xf openjdk-8u292+05-jvmci-20.3-b12-linux-amd64.tar.gz
 ```
 Clone and enter adaptive-code-generation.
 ```
-git clone https://github.com/junyoungkim22/adaptive-code-generation.git
-cd adaptive-code-generation
+git clone https://github.com/junyoungkim22/amulet-release.git
+cd amulet-release
 ```
 
 In app.config, set 'arch' to SIMD instruction set supported by machine (avx, avx2, avx512).
@@ -65,12 +65,12 @@ mx build
 Compile native code for packing matrices, and build Amulet.
 ```
 cd $PROJECT_HOME
-cd adaptive-code-generation
+cd amulet-release
 ./scripts/compile_native.sh
 ./scripts/fast_build.sh
 ```
 
 Execute query using Amulet.
 ```
-./scripts/speed_run.sh tests/simd/decl/goto2304.js 1
+./scripts/speed_run.sh tests/release_tests/matmul_decl.js 1
 ```

@@ -24,7 +24,7 @@ Download Java with jvmci.
 wget https://github.com/graalvm/graal-jvmci-8/releases/download/jvmci-20.3-b12/openjdk-8u292+05-jvmci-20.3-b12-linux-amd64.tar.gz
 tar -xf openjdk-8u292+05-jvmci-20.3-b12-linux-amd64.tar.gz
 ```
-Clone and enter adaptive-code-generation.
+Clone and enter amulet-release.
 ```
 git clone https://github.com/junyoungkim22/amulet-release.git
 cd amulet-release

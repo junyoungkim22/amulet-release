@@ -98,7 +98,7 @@ public final class VecConvKernelNode extends VecStatementNode {
     try {
       debugLog =
           new PrintWriter(
-              "/home/junyoung2/project/project2/adaptive-code-generation/log.txt", "UTF-8");
+              "/home/junyoung2/project/project2/amulet-release/log.txt", "UTF-8");
     } catch (Exception e) {
       System.out.println(e);
     }

@@ -92,7 +92,7 @@ public final class VecGotoKernel8x8Node extends VecStatementNode {
     try {
       debugLog =
           new PrintWriter(
-              System.getenv("PROJECT_HOME") + "/adaptive-code-generation/log.txt", "UTF-8");
+              System.getenv("PROJECT_HOME") + "/amulet-release/log.txt", "UTF-8");
     } catch (Exception e) {
       System.out.println(e);
     }
